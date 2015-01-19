@@ -39,6 +39,10 @@ static NSString * const detailSegueName = @"RunDetails";
 {
     [super viewDidLoad];
 
+    // New in iOS8 - MANDATORY
+    self.locationManager = [[CLLocationManager alloc] init];
+    [self.locationManager requestWhenInUseAuthorization];
+    self.locationManager.delegate = self;
 }
 
 - (void)viewWillAppear:(BOOL)animated
