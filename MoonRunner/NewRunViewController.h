@@ -1,5 +1,5 @@
 //
-//  DetailViewController.h
+//  NewRunViewController.h
 //  MoonRunner
 //
 //  Created by Jonathan Kim on 1/18/15.
@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@class Run;
+@interface NewRunViewController : UIViewController
 
-@interface DetailViewController : UIViewController
-
-@property (strong, nonatomic) Run *run;
+@property NSManagedObjectContext *managedObjectContext;
 
 @end
-
