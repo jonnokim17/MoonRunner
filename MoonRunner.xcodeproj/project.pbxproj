@@ -63,6 +63,7 @@
 		90A049011A6C852A00C7F868 /* umbriel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90A048D61A6C852A00C7F868 /* umbriel.jpg */; };
 		90A049041A6C88BB00C7F868 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A049031A6C88BB00C7F868 /* HomeViewController.m */; };
 		90A049071A6CA95800C7F868 /* NewRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A049061A6CA95800C7F868 /* NewRunViewController.m */; };
+		90A0490A1A6CBEE300C7F868 /* MathController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A049091A6CBEE300C7F868 /* MathController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +143,8 @@
 		90A049031A6C88BB00C7F868 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		90A049051A6CA95800C7F868 /* NewRunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRunViewController.h; sourceTree = "<group>"; };
 		90A049061A6CA95800C7F868 /* NewRunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRunViewController.m; sourceTree = "<group>"; };
+		90A049081A6CBEE300C7F868 /* MathController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathController.h; sourceTree = "<group>"; };
+		90A049091A6CBEE300C7F868 /* MathController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +196,7 @@
 				90A049061A6CA95800C7F868 /* NewRunViewController.m */,
 				90A0487E1A6C81D300C7F868 /* DetailViewController.h */,
 				90A0487F1A6C81D300C7F868 /* DetailViewController.m */,
+				90A0490B1A6CBEE800C7F868 /* Model */,
 				90A048811A6C81D300C7F868 /* Main.storyboard */,
 				90A048841A6C81D300C7F868 /* Images.xcassets */,
 				90A048861A6C81D300C7F868 /* LaunchScreen.xib */,
@@ -281,6 +285,15 @@
 				90A048D61A6C852A00C7F868 /* umbriel.jpg */,
 			);
 			path = moonrunner_resources;
+			sourceTree = "<group>";
+		};
+		90A0490B1A6CBEE800C7F868 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90A049081A6CBEE300C7F868 /* MathController.h */,
+				90A049091A6CBEE300C7F868 /* MathController.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,6 +441,7 @@
 			files = (
 				90A048801A6C81D300C7F868 /* DetailViewController.m in Sources */,
 				90A048A21A6C831300C7F868 /* Run.m in Sources */,
+				90A0490A1A6CBEE300C7F868 /* MathController.m in Sources */,
 				90A048771A6C81D300C7F868 /* AppDelegate.m in Sources */,
 				90A0487A1A6C81D300C7F868 /* MoonRunner.xcdatamodeld in Sources */,
 				90A0489F1A6C831200C7F868 /* Location.m in Sources */,
