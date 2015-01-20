@@ -65,6 +65,8 @@
 		90A049071A6CA95800C7F868 /* NewRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A049061A6CA95800C7F868 /* NewRunViewController.m */; };
 		90A0490A1A6CBEE300C7F868 /* MathController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A049091A6CBEE300C7F868 /* MathController.m */; };
 		90C5221C1A6DD2E8004B6641 /* MulticolorPolylineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C5221B1A6DD2E8004B6641 /* MulticolorPolylineSegment.m */; };
+		90C8663E1A6EFFDA0044BF80 /* Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C8663D1A6EFFDA0044BF80 /* Badge.m */; };
+		90C866411A6F002F0044BF80 /* BadgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C866401A6F002F0044BF80 /* BadgeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +150,10 @@
 		90A049091A6CBEE300C7F868 /* MathController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathController.m; sourceTree = "<group>"; };
 		90C5221A1A6DD2E8004B6641 /* MulticolorPolylineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticolorPolylineSegment.h; sourceTree = "<group>"; };
 		90C5221B1A6DD2E8004B6641 /* MulticolorPolylineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticolorPolylineSegment.m; sourceTree = "<group>"; };
+		90C8663C1A6EFFDA0044BF80 /* Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Badge.h; sourceTree = "<group>"; };
+		90C8663D1A6EFFDA0044BF80 /* Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Badge.m; sourceTree = "<group>"; };
+		90C8663F1A6F002F0044BF80 /* BadgeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeController.h; sourceTree = "<group>"; };
+		90C866401A6F002F0044BF80 /* BadgeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,6 +303,10 @@
 				90A049091A6CBEE300C7F868 /* MathController.m */,
 				90C5221A1A6DD2E8004B6641 /* MulticolorPolylineSegment.h */,
 				90C5221B1A6DD2E8004B6641 /* MulticolorPolylineSegment.m */,
+				90C8663C1A6EFFDA0044BF80 /* Badge.h */,
+				90C8663D1A6EFFDA0044BF80 /* Badge.m */,
+				90C8663F1A6F002F0044BF80 /* BadgeController.h */,
+				90C866401A6F002F0044BF80 /* BadgeController.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -454,7 +464,9 @@
 				90A0490A1A6CBEE300C7F868 /* MathController.m in Sources */,
 				90C5221C1A6DD2E8004B6641 /* MulticolorPolylineSegment.m in Sources */,
 				90A048771A6C81D300C7F868 /* AppDelegate.m in Sources */,
+				90C8663E1A6EFFDA0044BF80 /* Badge.m in Sources */,
 				90A0487A1A6C81D300C7F868 /* MoonRunner.xcdatamodeld in Sources */,
+				90C866411A6F002F0044BF80 /* BadgeController.m in Sources */,
 				90A0489F1A6C831200C7F868 /* Location.m in Sources */,
 				90A049041A6C88BB00C7F868 /* HomeViewController.m in Sources */,
 				90A048741A6C81D300C7F868 /* main.m in Sources */,
